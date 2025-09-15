@@ -11,3 +11,7 @@ function MostraPalavrasChave () {
 
   campoResultado.textContent=palavraChave.join(",");
 }
+
+  function processaTexto (texto) {
+    let palavras = texto.split(/\P {L}+/u);
+  }
