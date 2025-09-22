@@ -43,3 +43,13 @@ function MostraPalavrasChave () {
       }
     return frequencias;
  }
+
+ function tiraPalavrasRuins(palavras) {
+  const palavras = [];
+   for (let palavras of palavras) {
+    it (!PLAVRAS_RUINS.has(palavras) && palavras.lenght >2) {
+    palavrasBoas.push(palavra);
+   }
+ }
+ return palavrasBoas;
+}
